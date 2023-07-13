@@ -1,0 +1,44 @@
+div:hover {
+    border: 2px solid lightcoral;
+  }
+
+  div:nth-of-type(1) {
+    background-color: red;
+  }
+  div:nth-of-type(2) {
+    background-color: pink;
+  }
+  div:nth-of-type(3) {
+    background-color: purple;
+  }
+  div:nth-of-type(4) {
+    background-color: aquamarine;
+  }
+  div:nth-of-type(5) {
+    background-color: lightseagreen;
+  }
+  
+  div:nth-of-type(1) > h3 {
+    color: purple;
+  }
+  
+  div:nth-of-type(2) > h3 {
+    color: green 
+  }
+  div:nth-of-type(3) > h3 {
+    font-size: 20px;
+  }
+  div:nth-of-type(4) > h3 {
+    font-family: monospace;
+  }
+  div:nth-of-type(5) > h3 {
+    font-style: italic
+  }
+  
+  div:nth-of-type(3) {
+    height: 71px;
+  }
+  
+  div:nth-child(odd) h3 {
+    font-style: italic
+  }

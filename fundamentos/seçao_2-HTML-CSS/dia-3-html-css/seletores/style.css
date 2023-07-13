@@ -1,0 +1,20 @@
+h1,
+p {
+  text-align: center;
+}
+
+li:hover {
+  background-color: sienna;
+}
+
+li:active {
+  color: aquamarine;
+}
+
+#ordered {
+  list-style: none;
+}
+
+#unordered {
+  list-style: none;
+}

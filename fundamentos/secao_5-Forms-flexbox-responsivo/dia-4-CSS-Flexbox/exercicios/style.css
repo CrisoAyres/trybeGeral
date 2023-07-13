@@ -1,0 +1,168 @@
+.container {
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+​
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(50, 167, 145);
+}
+​
+.trybewarts-header-logo {
+  height: 100px;
+}
+​
+#trybewarts-header-title {
+  color: white;
+}
+​
+.trybewarts-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+}
+​
+.trybewarts-login input , .trybewarts-login button {
+  margin: 5px;
+  width: 150px;
+}
+​
+.trybewarts-login button {
+  background-color: rgb(36, 0, 128);
+}
+​
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+​
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  align-content: center;
+  width: 675px;
+  visibility: none;
+}
+​
+#trybewarts-forms-logo {
+  height: 500px;
+}
+​
+#evaluation-form .side-by-side input {
+  margin: 5px;
+  width: 320px;
+}
+​
+.side-by-side {
+  display: flex;
+}
+​
+.div-select {
+  display: flex;
+  margin-left: 10px;
+}
+​
+#radio-check {
+  display: flex;
+}
+​
+#house {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 260px;
+  height: 49px;
+  float: right;
+}
+​
+#radio-inputs {
+  width: 280px;
+}
+​
+#radio-inputs .form-check {
+  margin: 10px 0;
+}
+​
+#check-inputs {
+  width: 350px;
+}
+​
+#check-inputs .form-check {
+  margin: 6px;
+}
+​
+#label-content {
+  line-height: 36px;
+  text-align: justify;
+}
+​
+#checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+​
+#checkboxes .form-check {
+  width: 90px;
+}
+​
+#rate {
+  display: flex;
+  margin-bottom: 20px;
+}
+​
+#label-rate {
+  margin-right: 20px;
+}
+​
+#div-rate {
+  display: flex;
+  flex-wrap: wrap;
+}
+​
+#div-rate .form-check {
+  margin-left: 20px;
+}
+​
+textarea {
+  resize: none;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+​
+#counter {
+  margin-top: -50px;
+  margin-right: 10px;
+  float: right;
+}
+​
+#submit-btn {
+  margin: 20px 0;
+  background-color: rgb(36, 0, 128);
+}
+​
+footer {
+  padding: 30px 10px 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+​
+#form-data {
+  margin-top: 160px;
+  height: 60vh;
+  width: 100%;
+  margin-left: 40px;
+  text-align: center;
+  font-family: Snell Roundhand, cursive;
+}

@@ -1,0 +1,34 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 65px;
+    color: orange;
+    font-style: oblique;
+  }
+
+  .bg-color {
+    background-color: antiquewhite;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 2cqmax;
+    text-align:left;
+    text-decoration:overline;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  #maça {
+    background-color: red;
+  }
+
+  #banana {
+    background-color: yellow;
+  }
+
+  #goiaba {
+    background-color: greenyellow;
+  }
